@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@200;300;400;600&family=Raleway:wght@100;400;600&display=swap');
+
+body {
+  font-family: Raleway, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+#quote-box {
+  width: 500px;
+  background: #3a5a40;
+  margin: 0 auto;
+
+  color: #dad7cd;
+  padding: 1em 4em;
+  border-radius: 5px;
+}
+
+#text {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+#author {
+  display: block;
+  text-align: end;
+  font-weight: normal;
+}
+
+#new-quote {
+  padding: 10px 16px;
+  border-radius: 3px;
+  border: 2px solid #dad7cd;
+  background: #283618;
+  color: #dad7cd;
+  transition: all 0.3s;
+  font-weight: bold;
+}
+
+#new-quote:hover {
+  background: #dad7cd;
+  color: #283618;
+  cursor: pointer;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 32px 0;
+}
+
+#tweet-quote {
+  color: #dad7cd;
+  font-size: 32px;
+}
